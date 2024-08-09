@@ -955,3 +955,956 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/8/9 16:51:02。
+      节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/8/9 16:51:04。
+      节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.72
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xbcjca"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xbcjca"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xbcjca'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_ea4f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:06。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xbcjca\\cmTC_ea4f0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ea4f0.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xbcjca\\Debug\\”。
+          正在创建目录“cmTC_ea4f0.dir\\Debug\\cmTC_ea4f0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ea4f0.dir\\Debug\\cmTC_ea4f0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea4f0.dir\\Debug\\\\" /Fd"cmTC_ea4f0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Programs\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea4f0.dir\\Debug\\\\" /Fd"cmTC_ea4f0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Programs\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xbcjca\\Debug\\cmTC_ea4f0.exe" /INCREMENTAL /ILK:"cmTC_ea4f0.dir\\Debug\\cmTC_ea4f0.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xbcjca/Debug/cmTC_ea4f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xbcjca/Debug/cmTC_ea4f0.lib" /MACHINE:X64  /machine:x64 cmTC_ea4f0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ea4f0.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xbcjca\\Debug\\cmTC_ea4f0.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xbcjca\\Debug\\cmTC_ea4f0.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_ea4f0.dir\\Debug\\cmTC_ea4f0.tlog\\cmTC_ea4f0.write.1u.tlog" "cmTC_ea4f0.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ea4f0.dir\\Debug\\cmTC_ea4f0.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ea4f0.dir\\Debug\\cmTC_ea4f0.tlog\\cmTC_ea4f0.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xbcjca\\cmTC_ea4f0.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x21fzz"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x21fzz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x21fzz'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_ddcad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:08。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x21fzz\\cmTC_ddcad.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ddcad.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x21fzz\\Debug\\”。
+          正在创建目录“cmTC_ddcad.dir\\Debug\\cmTC_ddcad.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ddcad.dir\\Debug\\cmTC_ddcad.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ddcad.dir\\Debug\\\\" /Fd"cmTC_ddcad.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Programs\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ddcad.dir\\Debug\\\\" /Fd"cmTC_ddcad.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Programs\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x21fzz\\Debug\\cmTC_ddcad.exe" /INCREMENTAL /ILK:"cmTC_ddcad.dir\\Debug\\cmTC_ddcad.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x21fzz/Debug/cmTC_ddcad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-x21fzz/Debug/cmTC_ddcad.lib" /MACHINE:X64  /machine:x64 cmTC_ddcad.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ddcad.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x21fzz\\Debug\\cmTC_ddcad.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x21fzz\\Debug\\cmTC_ddcad.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_ddcad.dir\\Debug\\cmTC_ddcad.tlog\\cmTC_ddcad.write.1u.tlog" "cmTC_ddcad.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ddcad.dir\\Debug\\cmTC_ddcad.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ddcad.dir\\Debug\\cmTC_ddcad.tlog\\cmTC_ddcad.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-x21fzz\\cmTC_ddcad.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.65
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "data/cmake/MitsubaExternal.cmake:67 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-okuyya"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-okuyya"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-okuyya'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_ba090.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:10。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\cmTC_ba090.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ba090.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\Debug\\”。
+          正在创建目录“cmTC_ba090.dir\\Debug\\cmTC_ba090.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ba090.dir\\Debug\\cmTC_ba090.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba090.dir\\Debug\\\\" /Fd"cmTC_ba090.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba090.dir\\Debug\\\\" /Fd"cmTC_ba090.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\src.c"
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\cmTC_ba090.vcxproj]
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\cmTC_ba090.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\cmTC_ba090.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-okuyya\\cmTC_ba090.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "data/cmake/MitsubaExternal.cmake:67 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-reycgy"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-reycgy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-reycgy'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_c35be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:11。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\cmTC_c35be.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c35be.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\Debug\\”。
+          正在创建目录“cmTC_c35be.dir\\Debug\\cmTC_c35be.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c35be.dir\\Debug\\cmTC_c35be.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c35be.dir\\Debug\\\\" /Fd"cmTC_c35be.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c35be.dir\\Debug\\\\" /Fd"cmTC_c35be.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\CheckFunctionExists.c"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\Debug\\cmTC_c35be.exe" /INCREMENTAL /ILK:"cmTC_c35be.dir\\Debug\\cmTC_c35be.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-reycgy/Debug/cmTC_c35be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-reycgy/Debug/cmTC_c35be.lib" /MACHINE:X64  /machine:x64 cmTC_c35be.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\cmTC_c35be.vcxproj]
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\cmTC_c35be.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\cmTC_c35be.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-reycgy\\cmTC_c35be.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "data/cmake/MitsubaExternal.cmake:67 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xepmks"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xepmks"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xepmks'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_958e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:12。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\cmTC_958e4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_958e4.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\Debug\\”。
+          正在创建目录“cmTC_958e4.dir\\Debug\\cmTC_958e4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_958e4.dir\\Debug\\cmTC_958e4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_958e4.dir\\Debug\\\\" /Fd"cmTC_958e4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_958e4.dir\\Debug\\\\" /Fd"cmTC_958e4.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\CheckFunctionExists.c"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\Debug\\cmTC_958e4.exe" /INCREMENTAL /ILK:"cmTC_958e4.dir\\Debug\\cmTC_958e4.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xepmks/Debug/cmTC_958e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-xepmks/Debug/cmTC_958e4.lib" /MACHINE:X64  /machine:x64 cmTC_958e4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\cmTC_958e4.vcxproj]
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\cmTC_958e4.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\cmTC_958e4.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-xepmks\\cmTC_958e4.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.63
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "data/cmake/MitsubaExternal.cmake:86 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Performing Test BOOST_SPIRIT_WORKS"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-v49ae7"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-v49ae7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /DWIN32 /D_WINDOWS /W3 /GR /EHsc /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "BOOST_SPIRIT_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-v49ae7'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_665da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:13。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\cmTC_665da.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_665da.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\Debug\\”。
+          正在创建目录“cmTC_665da.dir\\Debug\\cmTC_665da.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_665da.dir\\Debug\\cmTC_665da.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_SPIRIT_WORKS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_665da.dir\\Debug\\\\" /Fd"cmTC_665da.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D BOOST_SPIRIT_WORKS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_665da.dir\\Debug\\\\" /Fd"cmTC_665da.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\src.cxx"
+          Unknown compiler version - please run the configure tests and report the results
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\boost/iostreams/positioning.hpp(96,15): warning C4996: 'std::fpos<_Mbstatet>::seekpos': warning STL4019: The member std::fpos::seekpos() is non-Standard, and is preserved only for compatibility with workarounds for old versions of Visual C++. It will be removed in a future release, and in this release always returns 0. Please use standards-conforming mechanisms to manipulate fpos, such as conversions to and from streamoff, or an integral type, instead. If you are receiving this message while compiling Boost.IOStreams, a fix has been submitted upstream to make Boost use standards-conforming mechanisms, as it does for other compilers. You can define _SILENCE_FPOS_SEEKPOS_DEPRECATION_WARNING to acknowledge that you have received this warning, or define _REMOVE_FPOS_SEEKPOS to remove std::fpos::seekpos entirely. [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\cmTC_665da.vcxproj]
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\Debug\\cmTC_665da.exe" /INCREMENTAL /ILK:"cmTC_665da.dir\\Debug\\cmTC_665da.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\boost_filesystem-vc141-mt-1_64.lib" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\boost_system-vc141-mt-1_64.lib" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\boost_thread-vc141-mt-1_64.lib" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\boost_chrono-vc141-mt-1_64.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-v49ae7/Debug/cmTC_665da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-v49ae7/Debug/cmTC_665da.lib" /MACHINE:X64  /machine:x64 cmTC_665da.dir\\Debug\\src.obj
+          cmTC_665da.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\Debug\\cmTC_665da.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\Debug\\cmTC_665da.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_665da.dir\\Debug\\cmTC_665da.tlog\\cmTC_665da.write.1u.tlog" "cmTC_665da.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_665da.dir\\Debug\\cmTC_665da.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_665da.dir\\Debug\\cmTC_665da.tlog\\cmTC_665da.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\cmTC_665da.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\cmTC_665da.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\boost/iostreams/positioning.hpp(96,15): warning C4996: 'std::fpos<_Mbstatet>::seekpos': warning STL4019: The member std::fpos::seekpos() is non-Standard, and is preserved only for compatibility with workarounds for old versions of Visual C++. It will be removed in a future release, and in this release always returns 0. Please use standards-conforming mechanisms to manipulate fpos, such as conversions to and from streamoff, or an integral type, instead. If you are receiving this message while compiling Boost.IOStreams, a fix has been submitted upstream to make Boost use standards-conforming mechanisms, as it does for other compilers. You can define _SILENCE_FPOS_SEEKPOS_DEPRECATION_WARNING to acknowledge that you have received this warning, or define _REMOVE_FPOS_SEEKPOS to remove std::fpos::seekpos entirely. [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-v49ae7\\cmTC_665da.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:05.96
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "data/cmake/MitsubaExternal.cmake:160 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Performing Test OPENEXR_IS_DLL"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-px29j3"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-px29j3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /DWIN32 /D_WINDOWS /W3 /GR /EHsc /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "OPENEXR_IS_DLL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-px29j3'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_e45a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:51:19。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e45a5.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\Debug\\”。
+          正在创建目录“cmTC_e45a5.dir\\Debug\\cmTC_e45a5.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e45a5.dir\\Debug\\cmTC_e45a5.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D OPENEXR_IS_DLL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e45a5.dir\\Debug\\\\" /Fd"cmTC_e45a5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D OPENEXR_IS_DLL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e45a5.dir\\Debug\\\\" /Fd"cmTC_e45a5.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\src.cxx"
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfName.h(104,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(143,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::ArgExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(143): message : 参见“Iex::ArgExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(145,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::LogicExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(145): message : 参见“Iex::LogicExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(150,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::InputExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(150): message : 参见“Iex::InputExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(152,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::IoExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(152): message : 参见“Iex::IoExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(154,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::MathExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(154): message : 参见“Iex::MathExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(158,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::ErrnoExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(158): message : 参见“Iex::ErrnoExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(163,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::NoImplExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(163): message : 参见“Iex::NoImplExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(169,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::NullExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(169): message : 参见“Iex::NullExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(171,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::TypeExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(60): message : 参见“Iex::BaseExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(171): message : 参见“Iex::TypeExc”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfHeader.h(428,19): warning C4251: “Imf::Header::_map”: class“std::map<Imf::Name,Imf::Attribute *,std::less<Imf::Name>,std::allocator<std::pair<const Imf::Name,Imf::Attribute *>>>”需要有 dll 接口由 class“Imf::Header”的客户端使用 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfHeader.h(219): message : 参见“std::map<Imf::Name,Imf::Attribute *,std::less<Imf::Name>,std::allocator<std::pair<const Imf::Name,Imf::Attribute *>>>”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfFrameBuffer.h(215,33): warning C4251: “Imf::FrameBuffer::_map”: class“std::map<Imf::Name,Imf::Slice,std::less<Imf::Name>,std::allocator<std::pair<const Imf::Name,Imf::Slice>>>”需要有 dll 接口由 class“Imf::FrameBuffer”的客户端使用 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfFrameBuffer.h(196): message : 参见“std::map<Imf::Name,Imf::Slice,std::less<Imf::Name>,std::allocator<std::pair<const Imf::Name,Imf::Slice>>>”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR/ImfRgbaFile.h(336,19): warning C4251: “Imf::RgbaInputFile::_channelNamePrefix”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Imf::RgbaInputFile”的客户端使用 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\include\\xstring(4871): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\Debug\\cmTC_e45a5.exe" /INCREMENTAL /ILK:"cmTC_e45a5.dir\\Debug\\cmTC_e45a5.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\Half.lib C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\Iex.lib C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\Imath.lib C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\IlmThread.lib C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\IlmImf.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-px29j3/Debug/cmTC_e45a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-px29j3/Debug/cmTC_e45a5.lib" /MACHINE:X64  /machine:x64 cmTC_e45a5.dir\\Debug\\src.obj
+          cmTC_e45a5.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\Debug\\cmTC_e45a5.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\Debug\\cmTC_e45a5.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e45a5.dir\\Debug\\cmTC_e45a5.tlog\\cmTC_e45a5.write.1u.tlog" "cmTC_e45a5.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e45a5.dir\\Debug\\cmTC_e45a5.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e45a5.dir\\Debug\\cmTC_e45a5.tlog\\cmTC_e45a5.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfName.h(104,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(143,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::ArgExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(145,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::LogicExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(150,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::InputExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(152,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::IoExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(154,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::MathExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(158,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::ErrnoExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(163,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::NoImplExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(169,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::NullExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\IexBaseExc.h(171,1): warning C4275: 非 dll 接口 class“Iex::BaseExc”用作 dll 接口 class“Iex::TypeExc”的基 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfHeader.h(428,19): warning C4251: “Imf::Header::_map”: class“std::map<Imf::Name,Imf::Attribute *,std::less<Imf::Name>,std::allocator<std::pair<const Imf::Name,Imf::Attribute *>>>”需要有 dll 接口由 class“Imf::Header”的客户端使用 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR\\ImfFrameBuffer.h(215,33): warning C4251: “Imf::FrameBuffer::_map”: class“std::map<Imf::Name,Imf::Slice,std::less<Imf::Name>,std::allocator<std::pair<const Imf::Name,Imf::Slice>>>”需要有 dll 接口由 class“Imf::FrameBuffer”的客户端使用 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+          C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include\\OpenEXR/ImfRgbaFile.h(336,19): warning C4251: “Imf::RgbaInputFile::_channelNamePrefix”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Imf::RgbaInputFile”的客户端使用 [C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-px29j3\\cmTC_e45a5.vcxproj]
+        
+            13 个警告
+            0 个错误
+        
+        已用时间 00:00:02.16
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "data/cmake/FindGLEW.cmake:103 (CHECK_C_SOURCE_COMPILES)"
+      - "data/cmake/MitsubaExternal.cmake:204 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Performing Test GLEW_WIN_CFLAGS"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s46quf"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s46quf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "GLEW_WIN_CFLAGS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s46quf'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d3c10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:53:26。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\cmTC_d3c10.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d3c10.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\Debug\\”。
+          正在创建目录“cmTC_d3c10.dir\\Debug\\cmTC_d3c10.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d3c10.dir\\Debug\\cmTC_d3c10.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GLEW_WIN_CFLAGS /D GLEW_MX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3c10.dir\\Debug\\\\" /Fd"cmTC_d3c10.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GLEW_WIN_CFLAGS /D GLEW_MX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3c10.dir\\Debug\\\\" /Fd"cmTC_d3c10.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\src.c"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\Debug\\cmTC_d3c10.exe" /INCREMENTAL /ILK:"cmTC_d3c10.dir\\Debug\\cmTC_d3c10.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" opengl32.lib glu32.lib C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\glew32mx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s46quf/Debug/cmTC_d3c10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s46quf/Debug/cmTC_d3c10.lib" /MACHINE:X64  /machine:x64 cmTC_d3c10.dir\\Debug\\src.obj
+          cmTC_d3c10.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\Debug\\cmTC_d3c10.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\Debug\\cmTC_d3c10.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d3c10.dir\\Debug\\cmTC_d3c10.tlog\\cmTC_d3c10.write.1u.tlog" "cmTC_d3c10.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d3c10.dir\\Debug\\cmTC_d3c10.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d3c10.dir\\Debug\\cmTC_d3c10.tlog\\cmTC_d3c10.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-s46quf\\cmTC_d3c10.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.99
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "data/cmake/MitsubaExternal.cmake:216 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:84 (include)"
+    checks:
+      - "Performing Test GLEW_VERSION_IS_OK"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z3iods"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z3iods"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /DWIN32 /D_WINDOWS /W3 /GR /EHsc /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "GLEW_VERSION_IS_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z3iods'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_cb189.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:53:29。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\cmTC_cb189.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cb189.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\Debug\\”。
+          正在创建目录“cmTC_cb189.dir\\Debug\\cmTC_cb189.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cb189.dir\\Debug\\cmTC_cb189.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GLEW_VERSION_IS_OK /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb189.dir\\Debug\\\\" /Fd"cmTC_cb189.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /IC:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\include /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GLEW_VERSION_IS_OK /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb189.dir\\Debug\\\\" /Fd"cmTC_cb189.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\src.cxx"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\Debug\\cmTC_cb189.exe" /INCREMENTAL /ILK:"cmTC_cb189.dir\\Debug\\cmTC_cb189.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" opengl32.lib glu32.lib C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\dependencies\\lib\\glew32mx.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z3iods/Debug/cmTC_cb189.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-z3iods/Debug/cmTC_cb189.lib" /MACHINE:X64  /machine:x64 cmTC_cb189.dir\\Debug\\src.obj
+          cmTC_cb189.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\Debug\\cmTC_cb189.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\Debug\\cmTC_cb189.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_cb189.dir\\Debug\\cmTC_cb189.tlog\\cmTC_cb189.write.1u.tlog" "cmTC_cb189.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_cb189.dir\\Debug\\cmTC_cb189.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_cb189.dir\\Debug\\cmTC_cb189.tlog\\cmTC_cb189.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-z3iods\\cmTC_cb189.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "data/cmake/MitsubaExternal.cmake:233 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b9lvkx"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b9lvkx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b9lvkx'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_e2f1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:53:31。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\cmTC_e2f1f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e2f1f.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\Debug\\”。
+          正在创建目录“cmTC_e2f1f.dir\\Debug\\cmTC_e2f1f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e2f1f.dir\\Debug\\cmTC_e2f1f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_e2f1f.dir\\Debug\\\\" /Fd"cmTC_e2f1f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\OpenMPTryFlag.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPTryFlag.c
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_e2f1f.dir\\Debug\\\\" /Fd"cmTC_e2f1f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\OpenMPTryFlag.c"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\Debug\\cmTC_e2f1f.exe" /INCREMENTAL /ILK:"cmTC_e2f1f.dir\\Debug\\cmTC_e2f1f.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b9lvkx/Debug/cmTC_e2f1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-b9lvkx/Debug/cmTC_e2f1f.lib" /MACHINE:X64  /machine:x64 cmTC_e2f1f.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_e2f1f.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\Debug\\cmTC_e2f1f.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\Debug\\cmTC_e2f1f.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e2f1f.dir\\Debug\\cmTC_e2f1f.tlog\\cmTC_e2f1f.write.1u.tlog" "cmTC_e2f1f.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e2f1f.dir\\Debug\\cmTC_e2f1f.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e2f1f.dir\\Debug\\cmTC_e2f1f.tlog\\cmTC_e2f1f.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-b9lvkx\\cmTC_e2f1f.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.03
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "data/cmake/MitsubaExternal.cmake:233 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nzw972"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nzw972"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /DWIN32 /D_WINDOWS /W3 /GR /EHsc /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nzw972'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d627e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:53:33。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\cmTC_d627e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d627e.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\Debug\\”。
+          正在创建目录“cmTC_d627e.dir\\Debug\\cmTC_d627e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d627e.dir\\Debug\\cmTC_d627e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d627e.dir\\Debug\\\\" /Fd"cmTC_d627e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\OpenMPTryFlag.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPTryFlag.cpp
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d627e.dir\\Debug\\\\" /Fd"cmTC_d627e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\OpenMPTryFlag.cpp"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\Debug\\cmTC_d627e.exe" /INCREMENTAL /ILK:"cmTC_d627e.dir\\Debug\\cmTC_d627e.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nzw972/Debug/cmTC_d627e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-nzw972/Debug/cmTC_d627e.lib" /MACHINE:X64  /machine:x64 cmTC_d627e.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_d627e.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\Debug\\cmTC_d627e.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\Debug\\cmTC_d627e.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_d627e.dir\\Debug\\cmTC_d627e.tlog\\cmTC_d627e.write.1u.tlog" "cmTC_d627e.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d627e.dir\\Debug\\cmTC_d627e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d627e.dir\\Debug\\cmTC_d627e.tlog\\cmTC_d627e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-nzw972\\cmTC_d627e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.12
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "data/cmake/MitsubaExternal.cmake:233 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-r02fre"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-r02fre"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-r02fre'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_88c3d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:53:36。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\cmTC_88c3d.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_88c3d.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\Debug\\”。
+          正在创建目录“cmTC_88c3d.dir\\Debug\\cmTC_88c3d.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_88c3d.dir\\Debug\\cmTC_88c3d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_88c3d.dir\\Debug\\\\" /Fd"cmTC_88c3d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\OpenMPCheckVersion.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPCheckVersion.c
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_88c3d.dir\\Debug\\\\" /Fd"cmTC_88c3d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\OpenMPCheckVersion.c"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\Debug\\cmTC_88c3d.exe" /INCREMENTAL /ILK:"cmTC_88c3d.dir\\Debug\\cmTC_88c3d.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-r02fre/Debug/cmTC_88c3d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-r02fre/Debug/cmTC_88c3d.lib" /MACHINE:X64  /machine:x64 cmTC_88c3d.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_88c3d.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\Debug\\cmTC_88c3d.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\Debug\\cmTC_88c3d.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_88c3d.dir\\Debug\\cmTC_88c3d.tlog\\cmTC_88c3d.write.1u.tlog" "cmTC_88c3d.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_88c3d.dir\\Debug\\cmTC_88c3d.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_88c3d.dir\\Debug\\cmTC_88c3d.tlog\\cmTC_88c3d.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-r02fre\\cmTC_88c3d.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "D:/Programs/cmake/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "data/cmake/MitsubaExternal.cmake:233 (find_package)"
+      - "CMakeLists.txt:84 (include)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-70zq68"
+      binary: "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-70zq68"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /DWIN32 /D_WINDOWS /W3 /GR /EHsc /GS-"
+      CMAKE_MODULE_PATH: "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-70zq68'
+        
+        Run Build Command(s): D:/Programs/MSVC2019/MSBuild/Current/Bin/MSBuild.exe cmTC_771ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/8/9 16:53:38。
+        节点 1 上的项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\cmTC_771ee.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_771ee.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\Debug\\”。
+          正在创建目录“cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "D:\\Programs\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_771ee.dir\\Debug\\\\" /Fd"cmTC_771ee.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\OpenMPCheckVersion.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPCheckVersion.cpp
+          cl /c /I"D:\\Programs\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_771ee.dir\\Debug\\\\" /Fd"cmTC_771ee.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\OpenMPCheckVersion.cpp"
+        Link:
+          D:\\Programs\\MSVC2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\Debug\\cmTC_771ee.exe" /INCREMENTAL /ILK:"cmTC_771ee.dir\\Debug\\cmTC_771ee.ilk" /NOLOGO /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\Programs\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-70zq68/Debug/cmTC_771ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-70zq68/Debug/cmTC_771ee.lib" /MACHINE:X64  /machine:x64 cmTC_771ee.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_771ee.vcxproj -> C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\Debug\\cmTC_771ee.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\Programs\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\Debug\\cmTC_771ee.exe" "D:\\Programs\\vcpkg\\installed\\x64-windows\\bin" "cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\cmTC_771ee.write.1u.tlog" "cmTC_771ee.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_771ee.dir\\Debug\\cmTC_771ee.tlog\\cmTC_771ee.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\shy\\Downloads\\mbglints\\mitsuba\\cmake-build-release\\CMakeFiles\\CMakeScratch\\TryCompile-70zq68\\cmTC_771ee.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:02.46
+        
+      exitCode: 0
+...

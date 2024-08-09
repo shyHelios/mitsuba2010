@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{66B72962-38BE-3C88-8587-60D67354CEFC}</ProjectGuid>
+    <ProjectGuid>{9FCE36A2-D9DB-3CD8-A846-D208228F9A64}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -66,7 +66,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,16 +85,16 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\scene.xsd">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\scene.xsd">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying XML data: scene schema and upgrade XSL files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/scene.xsd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/scene.xsd
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.3.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.3.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.4.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.4.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.5.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.5.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -102,18 +102,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying XML data: scene schema and upgrade XSL files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/scene.xsd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/scene.xsd
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.3.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.3.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.4.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.4.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.5.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.5.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,18 +121,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying XML data: scene schema and upgrade XSL files</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/scene.xsd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/scene.xsd
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.3.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.3.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.4.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.4.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.5.0.xsl
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/schema/upgrade_0.5.0.xsl
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -140,13 +140,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\2acfaf813de37ce98dbcc8893600b6d4\scene_schema.rule">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\df773da510579a065287e3a18ae31638\scene_schema.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 :cmEnd
@@ -155,8 +155,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -167,8 +167,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -179,18 +179,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\scene.xsd;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.3.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.4.0.xsl;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\schema\upgrade_0.5.0.xsl;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\data\schema\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\data\schema\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -199,11 +199,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,11 +212,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,17 +225,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema">
+    <None Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\CMakeFiles\scene_schema">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
-      <Project>{9D981FC8-BDDA-345D-9381-4CE1AA109D2B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{C28FFD80-C0D9-3210-B58E-2372C6DD4F4D}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

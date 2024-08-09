@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\hair.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\shapes\hair.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\hair.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\shapes\hair.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\shapes\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\hair_res.rc">
+    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\hair_res.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A4E0B49D-A142-3BA1-A87E-E5287C72AAF3}</UniqueIdentifier>
+      <UniqueIdentifier>{BE6BDDA7-EFA8-3A01-B529-CD93C4C1EFFB}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{921C06D3-044F-3A9D-A1B4-6165C0734088}</UniqueIdentifier>
+      <UniqueIdentifier>{8ACE4968-40DD-3305-B9EA-7C1070E6DBF2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

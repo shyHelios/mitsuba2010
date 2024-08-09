@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema
+# Install script for directory: C:/Users/shy/Downloads/mbglints/mitsuba/data/schema
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mitsuba")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mitsuba")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,10 +34,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/schema" TYPE FILE PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/scene.xsd"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.3.0.xsl"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.4.0.xsl"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.5.0.xsl"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/scene.xsd"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.3.0.xsl"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.4.0.xsl"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/schema/upgrade_0.5.0.xsl"
     )
 endif()
 

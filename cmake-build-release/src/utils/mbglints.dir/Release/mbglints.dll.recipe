@@ -2,25 +2,25 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\x64\release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\x64\release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\x64\release\ior_database</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\x64\release\ior_database</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\x64\release\microfacet_data</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\x64\release\microfacet_data</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\libmitsuba-core.dll</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\release\libmitsuba-core.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\x64\release\scene_schema</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\schema\x64\release\scene_schema</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\libmitsuba-render.dll</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\release\libmitsuba-render.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\plugins\mbglints.dll</FullPath>
+      <FullPath>C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\release\plugins\mbglints.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

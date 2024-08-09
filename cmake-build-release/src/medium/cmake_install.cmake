@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/shy/Downloads/mbglints-master/mitsuba/src/medium
+# Install script for directory: C:/Users/shy/Downloads/mbglints/mitsuba/src/medium
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mitsuba")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mitsuba")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,21 +34,21 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/plugins/homogeneous.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/release/plugins/homogeneous.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/MinSizeRel/plugins/homogeneous.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/MinSizeRel/plugins/homogeneous.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/RelWithDebInfo/plugins/homogeneous.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/RelWithDebInfo/plugins/homogeneous.dll")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/plugins/heterogeneous.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/release/plugins/heterogeneous.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/MinSizeRel/plugins/heterogeneous.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/MinSizeRel/plugins/heterogeneous.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/RelWithDebInfo/plugins/heterogeneous.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/plugins" TYPE MODULE FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/RelWithDebInfo/plugins/heterogeneous.dll")
   endif()
 endif()
 

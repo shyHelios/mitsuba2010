@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/shy/Downloads/mbglints-master/mitsuba/src/libbidir
+# Install script for directory: C:/Users/shy/Downloads/mbglints/mitsuba/src/libbidir
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mitsuba")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mitsuba")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,42 +34,42 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Developer" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/libbidir/Release/mitsuba-bidir.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/src/libbidir/Release/mitsuba-bidir.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/libbidir/MinSizeRel/mitsuba-bidir.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/src/libbidir/MinSizeRel/mitsuba-bidir.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/libbidir/RelWithDebInfo/mitsuba-bidir.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/src/libbidir/RelWithDebInfo/mitsuba-bidir.lib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE SHARED_LIBRARY FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/libmitsuba-bidir.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE SHARED_LIBRARY FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/release/libmitsuba-bidir.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE SHARED_LIBRARY FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/MinSizeRel/libmitsuba-bidir.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE SHARED_LIBRARY FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/MinSizeRel/libmitsuba-bidir.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE SHARED_LIBRARY FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/RelWithDebInfo/libmitsuba-bidir.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE SHARED_LIBRARY FILES "C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/RelWithDebInfo/libmitsuba-bidir.dll")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Developer" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/sdk/include/mitsuba/bidir" TYPE FILE PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/common.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/edge.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/geodist2.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/manifold.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mempool.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mut_bidir.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mut_caustic.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mut_lens.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mut_manifold.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mut_mchain.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/mutator.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/path.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/pathsampler.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/rsampler.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/util.h"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/include/mitsuba/bidir/vertex.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/common.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/edge.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/geodist2.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/manifold.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mempool.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mut_bidir.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mut_caustic.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mut_lens.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mut_manifold.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mut_mchain.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/mutator.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/path.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/pathsampler.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/rsampler.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/util.h"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/include/mitsuba/bidir/vertex.h"
     )
 endif()
 

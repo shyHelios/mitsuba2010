@@ -951,7 +951,6 @@ private:
 	int m_height;
 	const TriMesh *m_mesh; //for general object only
 	int m_maxSubDepth;
-
 };
 
 

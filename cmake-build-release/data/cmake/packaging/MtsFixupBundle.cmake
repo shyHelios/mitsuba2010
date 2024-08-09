@@ -120,11 +120,11 @@ else ()
   get_filename_component(APP "${CMAKE_INSTALL_PREFIX}/Mitsuba.app" ABSOLUTE)
 endif ()
 
-set (libpaths "C:/Users/shy/Downloads/mbglints-master/mitsuba/dependencies/bin;C:/Users/shy/Downloads/mbglints-master/mitsuba/dependencies/lib")
+set (libpaths "C:/Users/shy/Downloads/mbglints/mitsuba/dependencies/bin;C:/Users/shy/Downloads/mbglints/mitsuba/dependencies/lib")
 
 
 # Use our custom version of fixup_bundle, which supports @rpath on OS X
-list(APPEND CMAKE_MODULE_PATH "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/cmake")
+list(APPEND CMAKE_MODULE_PATH "C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake")
 include("MtsBundleUtilities")
 if(APPLE)
   set(BU_CHMOD_BUNDLE_ITEMS ON)

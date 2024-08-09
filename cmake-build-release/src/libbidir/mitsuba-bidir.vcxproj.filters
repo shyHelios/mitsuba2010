@@ -1,113 +1,113 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\common.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\common.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\edge.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\edge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\manifold.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\manifold.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\mut_bidir.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\mut_bidir.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\mut_caustic.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\mut_caustic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\mut_lens.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\mut_lens.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\mut_manifold.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\mut_manifold.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\mut_mchain.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\mut_mchain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\path.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\path.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\pathsampler.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\pathsampler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\rsampler.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\rsampler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\util.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\verification.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\verification.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\vertex.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\vertex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\common.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\edge.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\edge.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\geodist2.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\geodist2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\manifold.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\manifold.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mempool.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mempool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mut_bidir.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mut_bidir.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mut_caustic.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mut_caustic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mut_lens.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mut_lens.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mut_manifold.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mut_manifold.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mut_mchain.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mut_mchain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\mutator.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\mutator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\path.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\path.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\pathsampler.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\pathsampler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\rsampler.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\rsampler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\util.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\bidir\vertex.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\bidir\vertex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libbidir\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libbidir\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\libbidir\mitsuba-bidir_res.rc">
+    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\libbidir\mitsuba-bidir_res.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A4E0B49D-A142-3BA1-A87E-E5287C72AAF3}</UniqueIdentifier>
+      <UniqueIdentifier>{BE6BDDA7-EFA8-3A01-B529-CD93C4C1EFFB}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{921C06D3-044F-3A9D-A1B4-6165C0734088}</UniqueIdentifier>
+      <UniqueIdentifier>{8ACE4968-40DD-3305-B9EA-7C1070E6DBF2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

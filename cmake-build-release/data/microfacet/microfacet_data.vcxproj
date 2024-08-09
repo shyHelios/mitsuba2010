@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{665F8D77-1DE4-3791-B9E9-EBBFECB5B3E2}</ProjectGuid>
+    <ProjectGuid>{204AC5CB-6004-379C-8692-8FF0AC2BA4C5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -66,7 +66,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,14 +85,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\90a42040540c50af3d3e09e2b5d56759\beckmann.dat.rule">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\f32b56e8930d1eebd340e66d29ec9f54\beckmann.dat.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying microfacet precomputed data</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/beckmann.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/beckmann.dat
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/ggx.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/ggx.dat
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/phong.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/phong.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -100,16 +100,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying microfacet precomputed data</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/beckmann.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/beckmann.dat
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/ggx.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/ggx.dat
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/phong.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/phong.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,16 +117,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying microfacet precomputed data</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/beckmann.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/beckmann.dat
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/ggx.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/ggx.dat
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/phong.dat
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/microfacet/phong.dat
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,13 +134,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\6533d39cb86e15ac0fd77553f48edda4\microfacet_data.rule">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\811aa69323c5dc35d28210e2bdf05b5a\microfacet_data.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 :cmEnd
@@ -149,8 +149,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -161,8 +161,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -173,18 +173,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\beckmann.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\ggx.dat;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\microfacet\phong.dat;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\data\microfacet\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\data\microfacet\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,11 +193,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,11 +206,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,17 +219,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data">
+    <None Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\microfacet\CMakeFiles\microfacet_data">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
-      <Project>{9D981FC8-BDDA-345D-9381-4CE1AA109D2B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{C28FFD80-C0D9-3210-B58E-2372C6DD4F4D}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

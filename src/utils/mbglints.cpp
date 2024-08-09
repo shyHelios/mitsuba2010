@@ -103,7 +103,7 @@ public:
 		string outputImage = std::string(argv[optind]);
 
 		string hfPath = "";
-		cout << argc << std::endl;
+		cout << argc << argv[0] <<  std::endl;
 		cout << outputImage << std::endl;
 		BounceGlintRenderer *glintRender;
 		cout << "For heightfield input: mtsutil.exe mbglints xml output.exr heightfild.exr heightfieldScale bounceCount errorThresh(0.001)";

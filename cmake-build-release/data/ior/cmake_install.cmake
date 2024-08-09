@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior
+# Install script for directory: C:/Users/shy/Downloads/mbglints/mitsuba/data/ior
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mitsuba")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mitsuba")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/ior" TYPE DIRECTORY PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior/." FILES_MATCHING REGEX "/[^/]*\\.spd$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/ior" TYPE DIRECTORY PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES "C:/Users/shy/Downloads/mbglints/mitsuba/data/ior/." FILES_MATCHING REGEX "/[^/]*\\.spd$")
 endif()
 

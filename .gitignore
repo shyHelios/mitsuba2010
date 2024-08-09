@@ -44,3 +44,7 @@ mitsuba.*.log
 .settings
 .cproject
 .project
+
+# 保留目标目录运行所需的必需dll
+cmake_build_release/*
+!cmake_build_release/binaries/release/*.dll

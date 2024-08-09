@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/shy/Downloads/mbglints-master/mitsuba/data/cmake/packaging
+# Install script for directory: C:/Users/shy/Downloads/mbglints/mitsuba/data/cmake/packaging
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mitsuba")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mitsuba")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/cmake/packaging/MtsFixupBundle.cmake")
+  include("C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/cmake/packaging/MtsFixupBundle.cmake")
 endif()
 

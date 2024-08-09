@@ -200,7 +200,7 @@ endif()
 
 find_package(OpenGL REQUIRED)
 set (GLEW_MX ON)
-set(GLEW_ROOT_DIR "C:/Users/shy/Downloads/mbglints-master/mitsuba/dependencies")
+set(GLEW_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/dependencies")
 find_package(GLEW REQUIRED)
 if (GLEW_FOUND)
   set (GLEW_STATE_VARS ${GLEW_INCLUDE_DIRS} ${GLEW_LIBRARIES})

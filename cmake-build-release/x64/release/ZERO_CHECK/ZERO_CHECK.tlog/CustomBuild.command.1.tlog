@@ -1,6 +1,6 @@
-^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\99BC5BB5062FD0D954216ABDF139BC83\GENERATE.STAMP.RULE
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\BF83ACBCEF13A8E57EE7843FEEB771F7\GENERATE.STAMP.RULE
 setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/mitsuba.sln
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/mitsuba.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

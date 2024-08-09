@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet
+# Install script for directory: C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mitsuba")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/mitsuba")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,9 +34,9 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/data/microfacet" TYPE FILE PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/beckmann.dat"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/ggx.dat"
-    "C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/phong.dat"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/beckmann.dat"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/ggx.dat"
+    "C:/Users/shy/Downloads/mbglints/mitsuba/data/microfacet/phong.dat"
     )
 endif()
 

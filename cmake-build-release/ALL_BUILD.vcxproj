@@ -21,7 +21,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C87AC20-17AC-3FFF-9FEC-B022C4B3B846}</ProjectGuid>
+    <ProjectGuid>{2ED004F7-2DF5-39C8-A67A-BD76352A9EAF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,7 +59,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -69,7 +69,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -88,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -100,12 +100,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCXXCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeSystem.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindCOLLADA.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindEigen.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindFFTW3.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindGLEW.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindIlmBase.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindOpenEXR.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindReleaseAndDebug.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindXerces.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaBuildOptions.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaExternal.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaUtil.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MtsGetVersionInfo.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\PCHTargets.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeFindFrameworks.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindBoost.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindJPEG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPNG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPythonLibs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindQt4.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindZLIB.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\MacroAddFileDependencies.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCXXCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeSystem.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindCOLLADA.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindEigen.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindFFTW3.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindGLEW.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindIlmBase.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindOpenEXR.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindReleaseAndDebug.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindXerces.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaBuildOptions.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaExternal.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaUtil.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MtsGetVersionInfo.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\PCHTargets.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeFindFrameworks.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindBoost.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindJPEG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPNG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPythonLibs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindQt4.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindZLIB.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\MacroAddFileDependencies.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCXXCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeSystem.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindCOLLADA.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindEigen.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindFFTW3.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindGLEW.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindIlmBase.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindOpenEXR.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindReleaseAndDebug.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindXerces.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaBuildOptions.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaExternal.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaUtil.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MtsGetVersionInfo.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\PCHTargets.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeFindFrameworks.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindBoost.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindJPEG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPNG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPythonLibs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindQt4.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindZLIB.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\MacroAddFileDependencies.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCXXCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeSystem.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindCOLLADA.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindEigen.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindFFTW3.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindGLEW.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindIlmBase.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindOpenEXR.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindReleaseAndDebug.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindXerces.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaBuildOptions.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaExternal.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaUtil.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MtsGetVersionInfo.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\PCHTargets.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeFindFrameworks.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindBoost.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindJPEG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPNG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPythonLibs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindQt4.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindZLIB.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\MacroAddFileDependencies.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,788 +126,788 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCXXCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeSystem.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindCOLLADA.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindEigen.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindFFTW3.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindGLEW.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindIlmBase.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindOpenEXR.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindReleaseAndDebug.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\FindXerces.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaBuildOptions.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaExternal.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MitsubaUtil.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\MtsGetVersionInfo.cmake;C:\Users\shy\Downloads\mbglints-master\mitsuba\data\cmake\PCHTargets.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeFindFrameworks.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindBoost.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindJPEG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPNG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPythonLibs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindQt4.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindZLIB.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\MacroAddFileDependencies.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeCXXCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\3.28.3\CMakeSystem.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindCOLLADA.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindEigen.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindFFTW3.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindGLEW.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindIlmBase.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindOpenEXR.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindReleaseAndDebug.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\FindXerces.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaBuildOptions.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaExternal.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MitsubaUtil.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\MtsGetVersionInfo.cmake;C:\Users\shy\Downloads\mbglints\mitsuba\data\cmake\PCHTargets.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeFindFrameworks.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseArguments.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakePushCheckState.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckCXXSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckLibraryExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindBoost.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindJPEG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenGL.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPNG.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindPythonLibs.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindQt4.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindThreads.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\FindZLIB.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\MacroAddFileDependencies.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Programs\cmake\share\cmake-3.28\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
-      <Project>{9D981FC8-BDDA-345D-9381-4CE1AA109D2B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{C28FFD80-C0D9-3210-B58E-2372C6DD4F4D}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\adaptive.vcxproj">
-      <Project>{96C7B7EA-3468-35DF-BA31-93FD1ACCBBDA}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\adaptive.vcxproj">
+      <Project>{2C8E04A1-E97B-39F4-A788-DCB0E3F6D6FC}</Project>
       <Name>adaptive</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\utils\addimages.vcxproj">
-      <Project>{221680CA-A934-332D-8AA0-605C851150E6}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\utils\addimages.vcxproj">
+      <Project>{8AE1CC01-DB72-38D5-9622-40D238A29AB7}</Project>
       <Name>addimages</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\ao.vcxproj">
-      <Project>{56C146A7-1FA0-3AD8-B121-9B6D705415EA}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\ao.vcxproj">
+      <Project>{05318032-F796-366E-8E1D-0BAFA8969485}</Project>
       <Name>ao</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\area.vcxproj">
-      <Project>{B35AA4D0-8005-3B1F-AACD-4BCDD4A9B273}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\area.vcxproj">
+      <Project>{2007CBE4-0003-3C6A-B7AC-FABB22B78827}</Project>
       <Name>area</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\bdpt.vcxproj">
-      <Project>{D7ACFF42-0D28-3B93-B920-6E5AFED5C890}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\bdpt.vcxproj">
+      <Project>{0990B712-E5AF-3D27-94D2-5B278480B48C}</Project>
       <Name>bdpt</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\bitmap.vcxproj">
-      <Project>{81194F8A-AD30-34AB-86B3-030870FC15DF}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\bitmap.vcxproj">
+      <Project>{3483D731-77DC-3404-9070-8EA4ED5A37EC}</Project>
       <Name>bitmap</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\blendbsdf.vcxproj">
-      <Project>{20C70FE0-C813-32EB-9B1E-00D45F31A2E9}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\blendbsdf.vcxproj">
+      <Project>{0644B64C-00AC-30FE-933E-62C4EDC0C56C}</Project>
       <Name>blendbsdf</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\rfilters\box.vcxproj">
-      <Project>{B05E2326-A8C0-3D38-8F08-6C69257B5831}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\rfilters\box.vcxproj">
+      <Project>{BA3A7CEB-5053-3C09-B4DB-A270807AD327}</Project>
       <Name>box</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\bumpmap.vcxproj">
-      <Project>{F5FB5319-61B7-3058-A7F0-BA7EC388B531}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\bumpmap.vcxproj">
+      <Project>{2D7E770C-F81D-3D0C-B930-96B4F3741B46}</Project>
       <Name>bumpmap</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\rfilters\catmullrom.vcxproj">
-      <Project>{241CF20B-CDB5-3FCE-83E6-9C790DB6A820}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\rfilters\catmullrom.vcxproj">
+      <Project>{1A9C9A47-3B1F-367B-A735-6D7F947526F2}</Project>
       <Name>catmullrom</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\checkerboard.vcxproj">
-      <Project>{3255127E-4D07-34DA-BB60-72CB7ED0A91E}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\checkerboard.vcxproj">
+      <Project>{0670C616-F686-332F-9023-96EC9D896554}</Project>
       <Name>checkerboard</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\coating.vcxproj">
-      <Project>{6F57BC77-5800-3EE4-B07A-44A5D33DA195}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\coating.vcxproj">
+      <Project>{F8D79E1A-311D-3694-AAAD-9F09DE3BD62A}</Project>
       <Name>coating</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\collimated.vcxproj">
-      <Project>{7F1A9B7D-84C9-39CF-B78B-5B5B82BF5964}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\collimated.vcxproj">
+      <Project>{F1173B2B-64AC-3A8B-91A5-0B7962AE5EAC}</Project>
       <Name>collimated</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\conductor.vcxproj">
-      <Project>{A50217A5-85C9-3929-A7AA-9AA058B5F0BA}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\conductor.vcxproj">
+      <Project>{EA8A94DE-5EAA-3176-8AE6-3E172381EBAD}</Project>
       <Name>conductor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\constant.vcxproj">
-      <Project>{D0B4897B-6FD4-3DD4-9ED6-8B6B7CE0A612}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\constant.vcxproj">
+      <Project>{4EDC704D-0BB9-3961-A58F-40BE45EC5420}</Project>
       <Name>constant</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\volume\constvolume.vcxproj">
-      <Project>{B4ACCDF6-D6FB-3F41-8D3B-AB51F9B7264D}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\volume\constvolume.vcxproj">
+      <Project>{73AC8AEB-7A60-3783-A2B2-E4182C23B620}</Project>
       <Name>constvolume</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\cube.vcxproj">
-      <Project>{1242CF8C-75F4-3790-A7BA-3992AC1330CF}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\cube.vcxproj">
+      <Project>{95E3C2EF-74C8-34CA-B915-2A794C62CE92}</Project>
       <Name>cube</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\curvature.vcxproj">
-      <Project>{B5B8230D-5D45-34AE-9B16-52DE4148E366}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\curvature.vcxproj">
+      <Project>{33F9E37D-5E84-3D37-8197-8293B895D775}</Project>
       <Name>curvature</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\utils\cylclip.vcxproj">
-      <Project>{71140B2C-E963-334C-9B83-81E84B61F839}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\utils\cylclip.vcxproj">
+      <Project>{9C83E74A-E2A2-3E57-8A76-CE841BFB645B}</Project>
       <Name>cylclip</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\cylinder.vcxproj">
-      <Project>{18288FD1-B5B2-3FE3-9146-D6C68C2FAB40}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\cylinder.vcxproj">
+      <Project>{E0AD69F0-88AF-3E07-B1A2-67F4EDE98303}</Project>
       <Name>cylinder</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\dielectric.vcxproj">
-      <Project>{1B673ED5-388B-3757-8B8C-7B0CD96EA225}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\dielectric.vcxproj">
+      <Project>{AF74B929-BED0-3F14-84D2-CB57337BA8CB}</Project>
       <Name>dielectric</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\difftrans.vcxproj">
-      <Project>{42E435DB-5835-388A-A21B-F03F6C789C46}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\difftrans.vcxproj">
+      <Project>{3C17FF09-7A6F-3A18-8D0E-70542322BF6A}</Project>
       <Name>difftrans</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\diffuse.vcxproj">
-      <Project>{1969DD7B-6902-30A2-8718-EAF9F4408CF3}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\diffuse.vcxproj">
+      <Project>{BD0EAAFD-491F-38C2-9B5B-5F0899B124E5}</Project>
       <Name>diffuse</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\subsurface\dipole.vcxproj">
-      <Project>{126786F7-BFF0-3659-86E6-D3D83C964560}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\subsurface\dipole.vcxproj">
+      <Project>{1DE34017-7649-3525-B73E-E68A1938B546}</Project>
       <Name>dipole</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\direct.vcxproj">
-      <Project>{A7C00685-73B9-3C37-87BC-3BD14F4926EB}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\direct.vcxproj">
+      <Project>{2A689F66-CFF8-359B-B9BA-C0D74266C28F}</Project>
       <Name>direct</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\directional.vcxproj">
-      <Project>{76F59C38-0DEC-37E9-A291-1C4B0C2E3D9C}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\directional.vcxproj">
+      <Project>{8E509DFC-9B69-33FA-AAC6-3EB433903B55}</Project>
       <Name>directional</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\disk.vcxproj">
-      <Project>{D2B9B146-3D32-395D-A4BA-7859F60996BE}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\disk.vcxproj">
+      <Project>{AFB22E06-51E0-3D30-A6A6-2847645C6F79}</Project>
       <Name>disk</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\envmap.vcxproj">
-      <Project>{B35D6C9E-98DF-38CE-8FDC-6D82EC93D64F}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\envmap.vcxproj">
+      <Project>{95A9EBB2-F0F3-3FDD-A68E-D54B63F12C9A}</Project>
       <Name>envmap</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\erpt.vcxproj">
-      <Project>{CA0352D5-4C30-30D5-AC81-4E37F6D79234}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\erpt.vcxproj">
+      <Project>{C804D4E6-607E-37FD-9026-B8115D2A8474}</Project>
       <Name>erpt</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\field.vcxproj">
-      <Project>{7A463E4D-F007-3F12-A41E-53E8DFD4B8A3}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\field.vcxproj">
+      <Project>{B8DFDA57-0936-3C51-90D1-09AD8586B94C}</Project>
       <Name>field</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\fluencemeter.vcxproj">
-      <Project>{DCD2D2D5-13B2-3851-AC13-4F9996DD0042}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\fluencemeter.vcxproj">
+      <Project>{3D07E584-6749-329B-AF40-71A63CEFC056}</Project>
       <Name>fluencemeter</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\rfilters\gaussian.vcxproj">
-      <Project>{2F2E0FF7-5C99-34CB-8754-73DEE2450BB6}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\rfilters\gaussian.vcxproj">
+      <Project>{FDCAECC1-B5AD-3707-8658-DA28E96247E2}</Project>
       <Name>gaussian</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\gridtexture.vcxproj">
-      <Project>{C3B0B54E-055B-3F79-89AB-15B986A8F5DD}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\gridtexture.vcxproj">
+      <Project>{91BF454F-3C08-3E62-A8CD-7403F8E4C735}</Project>
       <Name>gridtexture</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\volume\gridvolume.vcxproj">
-      <Project>{90FB97B6-27C9-303A-918B-E0452252A024}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\volume\gridvolume.vcxproj">
+      <Project>{6B1B8A62-07C6-3D9D-86A2-48DF6620CBD3}</Project>
       <Name>gridvolume</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\hair.vcxproj">
-      <Project>{BD916A15-BBFE-34B4-9011-8C3E659495CC}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\hair.vcxproj">
+      <Project>{2B62D466-D95F-35AD-B7F9-AF16E229F250}</Project>
       <Name>hair</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\samplers\halton.vcxproj">
-      <Project>{CDF964B3-1CF3-3F68-86AB-796BADC2B042}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\samplers\halton.vcxproj">
+      <Project>{E441A974-3808-37B0-8F00-8A82780108CD}</Project>
       <Name>halton</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\samplers\hammersley.vcxproj">
-      <Project>{F6041289-0F8F-3A33-89FB-4017185DB842}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\samplers\hammersley.vcxproj">
+      <Project>{8D928FB7-C7F9-3EA1-9B04-B7FDF4C918B4}</Project>
       <Name>hammersley</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\films\hdrfilm.vcxproj">
-      <Project>{535CDAE5-954B-3C4B-AB13-5735235CD6E7}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\films\hdrfilm.vcxproj">
+      <Project>{8B824809-44CB-3C96-9F9A-0F9D6F8393BD}</Project>
       <Name>hdrfilm</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\heightfield.vcxproj">
-      <Project>{3AC627DD-9044-3F41-B76A-49B18059B58F}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\heightfield.vcxproj">
+      <Project>{ED51F0D6-13E4-3E85-929D-0BF7F9979B0A}</Project>
       <Name>heightfield</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\medium\heterogeneous.vcxproj">
-      <Project>{EFDEC85D-AF30-3815-B348-B78274498D4C}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\medium\heterogeneous.vcxproj">
+      <Project>{A6B0264C-FA3B-3324-806E-2723E0D9D488}</Project>
       <Name>heterogeneous</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\phase\hg.vcxproj">
-      <Project>{3B681724-824A-3215-B4F2-CB137028ABD6}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\phase\hg.vcxproj">
+      <Project>{841A8949-8942-3832-B451-FFC4FE9D0934}</Project>
       <Name>hg</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\volume\hgridvolume.vcxproj">
-      <Project>{89A638F5-D81F-3B92-9C6B-4103EF775ADD}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\volume\hgridvolume.vcxproj">
+      <Project>{1CE17A82-9DDE-3754-8765-2C9467B10CB0}</Project>
       <Name>hgridvolume</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\hk.vcxproj">
-      <Project>{7554EE1F-65E5-3870-8AD1-167E01F08247}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\hk.vcxproj">
+      <Project>{05738D9D-D189-3683-A5F2-A2FAB39214B4}</Project>
       <Name>hk</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\medium\homogeneous.vcxproj">
-      <Project>{D242B749-F507-3C88-9BF7-3ABCAB4538D5}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\medium\homogeneous.vcxproj">
+      <Project>{8743ED0C-92D4-3B9C-AC8D-015B9B046B87}</Project>
       <Name>homogeneous</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\samplers\independent.vcxproj">
-      <Project>{6465BBDB-760E-301F-A952-B95E489E4886}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\samplers\independent.vcxproj">
+      <Project>{BD618BE0-405B-34BC-9684-7C8BF029B1A9}</Project>
       <Name>independent</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\instance.vcxproj">
-      <Project>{08A028D4-DD3D-394C-9726-EF23D1E91307}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\instance.vcxproj">
+      <Project>{28A1E61B-6446-3C1A-BB9A-F3E461F29C18}</Project>
       <Name>instance</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\irawan.vcxproj">
-      <Project>{5CA612E9-94DF-3205-9C82-6E18191D402D}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\irawan.vcxproj">
+      <Project>{B7CA72F3-E3E8-3812-99DB-B127C8009310}</Project>
       <Name>irawan</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\irradiancemeter.vcxproj">
-      <Project>{6304AFB0-2014-3E41-ACEA-881D47FD66C7}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\irradiancemeter.vcxproj">
+      <Project>{B94DE766-B2AD-320B-B64B-A04079E47735}</Project>
       <Name>irradiancemeter</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\irrcache.vcxproj">
-      <Project>{771F4BCB-4734-3130-BD35-896BC8BC067F}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\irrcache.vcxproj">
+      <Project>{0C6A1C52-5844-3F19-8546-5205D0DDC50C}</Project>
       <Name>irrcache</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\phase\isotropic.vcxproj">
-      <Project>{32AE9E61-83C3-3C1F-8979-D60A30E8823C}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\phase\isotropic.vcxproj">
+      <Project>{3F4496EA-1A6D-3368-8798-70B50A8C3BF5}</Project>
       <Name>isotropic</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\utils\joinrgb.vcxproj">
-      <Project>{8AB6D6CD-C934-3C6D-9AA0-2C03D79ACD59}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\utils\joinrgb.vcxproj">
+      <Project>{340B02C2-6F8E-351E-A7ED-9C7196540F0E}</Project>
       <Name>joinrgb</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\utils\kdbench.vcxproj">
-      <Project>{E80D137A-0296-3CE2-B64F-098E739EA402}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\utils\kdbench.vcxproj">
+      <Project>{E45E63FA-372E-3C97-992A-C706D688D79F}</Project>
       <Name>kdbench</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\phase\kkay.vcxproj">
-      <Project>{E6C03C72-AA9B-3C5C-906E-D84A207025AF}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\phase\kkay.vcxproj">
+      <Project>{FA49B7BE-5F37-3A40-98C7-3E5272B8A3E2}</Project>
       <Name>kkay</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\rfilters\lanczos.vcxproj">
-      <Project>{C1028ADA-20E1-315F-A95F-0139779DEC04}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\rfilters\lanczos.vcxproj">
+      <Project>{D4FAF455-5FF1-3566-8B5D-264D5C100060}</Project>
       <Name>lanczos</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\films\ldrfilm.vcxproj">
-      <Project>{1B3DBABB-19BA-3F6F-BC1B-9B6017EB6603}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\films\ldrfilm.vcxproj">
+      <Project>{8D0DD312-AF5D-374C-AA77-F0E160EEF9A7}</Project>
       <Name>ldrfilm</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\samplers\ldsampler.vcxproj">
-      <Project>{82A4EA30-A18C-3328-801C-A1E2474B5AAC}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\samplers\ldsampler.vcxproj">
+      <Project>{2674EF44-ED63-3D46-B165-79895B97773F}</Project>
       <Name>ldsampler</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\mask.vcxproj">
-      <Project>{BC88DB38-9481-3D98-9EFB-1ACA638E1C83}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\mask.vcxproj">
+      <Project>{83167321-E205-3E7A-B67F-8B987C855EA1}</Project>
       <Name>mask</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\utils\mbglints.vcxproj">
-      <Project>{13688243-27C7-3D38-ACB3-FD1BAA5624E7}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\utils\mbglints.vcxproj">
+      <Project>{0263F1A8-FCB3-344D-8B9F-6E9CC76CF3D9}</Project>
       <Name>mbglints</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\films\mfilm.vcxproj">
-      <Project>{1DA6D461-F6C7-3872-ACE0-DBA5C1A39255}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\films\mfilm.vcxproj">
+      <Project>{CF91DDE0-F435-3BFF-B8F8-15DF19BEE772}</Project>
       <Name>mfilm</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\phase\microflake.vcxproj">
-      <Project>{AC820987-DAE7-305C-BA4B-77F2D5BC4819}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\phase\microflake.vcxproj">
+      <Project>{9524C5BD-FC66-37FF-9318-9F089C3DD180}</Project>
       <Name>microflake</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\rfilters\mitchell.vcxproj">
-      <Project>{63A22840-CDE0-3F56-8450-2085E4F6F890}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\rfilters\mitchell.vcxproj">
+      <Project>{13800783-47DB-3ED1-927B-A3D344E4360E}</Project>
       <Name>mitchell</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\mitsuba\mitsuba.vcxproj">
-      <Project>{AE946DDA-6688-336F-8F12-0FB04D09629B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\mitsuba\mitsuba.vcxproj">
+      <Project>{BE1C0051-120A-3CE4-A3D5-C5423695F417}</Project>
       <Name>mitsuba</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\libbidir\mitsuba-bidir.vcxproj">
-      <Project>{D79DCFA8-ED8E-3F67-99C0-096A4DE9461A}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\libbidir\mitsuba-bidir.vcxproj">
+      <Project>{66077697-A565-398F-9AE4-2C508A4FA7C1}</Project>
       <Name>mitsuba-bidir</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\libcore\mitsuba-core.vcxproj">
-      <Project>{F294D2E2-1CB6-3F13-A3F5-46DE095CB3ED}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\libcore\mitsuba-core.vcxproj">
+      <Project>{DF666AA9-6DD6-33A4-9ACA-2553536EF25D}</Project>
       <Name>mitsuba-core</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\libhw\mitsuba-hw.vcxproj">
-      <Project>{D3C1BA2F-A358-3F4D-8B25-3176D3366307}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\libhw\mitsuba-hw.vcxproj">
+      <Project>{0D4BB2BA-5420-33EF-ACA0-0DAC0B7F18C4}</Project>
       <Name>mitsuba-hw</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\librender\mitsuba-render.vcxproj">
-      <Project>{32746751-6869-3F9F-BF5E-22D78F3A72AB}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\librender\mitsuba-render.vcxproj">
+      <Project>{78CCA11D-2372-394D-8F06-6EB25F92262C}</Project>
       <Name>mitsuba-render</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\mixturebsdf.vcxproj">
-      <Project>{C54AC692-4E7B-3A9B-A669-921843B3B6CD}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\mixturebsdf.vcxproj">
+      <Project>{0FB69A16-8502-3EC3-9F16-BEAD6774D19C}</Project>
       <Name>mixturebsdf</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\phase\mixturephase.vcxproj">
-      <Project>{34302A7F-C009-3B9A-87D0-AA07081DC539}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\phase\mixturephase.vcxproj">
+      <Project>{05DF1B57-9A7A-3AA0-878B-24CEAF1B5C88}</Project>
       <Name>mixturephase</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\mlt.vcxproj">
-      <Project>{6D236770-BCBD-3F07-8DF0-19879C91283A}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\mlt.vcxproj">
+      <Project>{02D629BD-8463-3A28-86AB-63A2A8CE34E5}</Project>
       <Name>mlt</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\mitsuba\mtssrv.vcxproj">
-      <Project>{6B76B811-6CBB-3B7E-9EBC-5BAD40AAA00E}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\mitsuba\mtssrv.vcxproj">
+      <Project>{6DE076F1-A16A-3091-AA08-DE20CEF824BB}</Project>
       <Name>mtssrv</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\mitsuba\mtsutil.vcxproj">
-      <Project>{65A6A3DA-5746-3250-8AB4-4CDE5AC13319}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\mitsuba\mtsutil.vcxproj">
+      <Project>{063C548F-66EB-31D9-9BA4-3D7F23301E22}</Project>
       <Name>mtsutil</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\multichannel.vcxproj">
-      <Project>{8DD68FB0-0725-3A56-BF0A-79ACC01B7FF5}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\multichannel.vcxproj">
+      <Project>{AD290025-A568-3D84-A836-11E9E276AE8D}</Project>
       <Name>multichannel</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\normalmap.vcxproj">
-      <Project>{D9946683-01B6-35C8-8042-0EDA7EED5BB9}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\normalmap.vcxproj">
+      <Project>{9561D9DF-061F-3189-A974-17672E53556C}</Project>
       <Name>normalmap</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\null.vcxproj">
-      <Project>{A3AD7D1B-3CEE-3EBC-ABD3-5A3BA06C8505}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\null.vcxproj">
+      <Project>{34C86F35-44B8-3A3D-BAB3-B03B395B4B2B}</Project>
       <Name>null</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\obj.vcxproj">
-      <Project>{B69D51B4-00E4-3C62-AEBD-67033EA3B080}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\obj.vcxproj">
+      <Project>{D66105F7-31A1-3B3B-8E2F-3353A5A32886}</Project>
       <Name>obj</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\orthographic.vcxproj">
-      <Project>{C784AD5B-377F-3563-88A7-42F455EB6CCF}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\orthographic.vcxproj">
+      <Project>{5E4C059B-740F-3B85-A069-B7C4060B4A16}</Project>
       <Name>orthographic</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\path.vcxproj">
-      <Project>{5A0B9C72-27BF-3B81-AFE8-4002EA866AC5}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\path.vcxproj">
+      <Project>{33962043-9038-3175-B59A-84F705472921}</Project>
       <Name>path</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\perspective.vcxproj">
-      <Project>{AE1665A2-15D4-3D44-A62F-7DD2A8C989EF}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\perspective.vcxproj">
+      <Project>{E41688CC-2AB5-30D8-A06B-C5AC9AAFA115}</Project>
       <Name>perspective</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\perspective_rdist.vcxproj">
-      <Project>{FA265119-A296-3318-85B9-2986BC91BB93}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\perspective_rdist.vcxproj">
+      <Project>{96AD20E6-BF57-34BF-8A3A-BF9897CEB291}</Project>
       <Name>perspective_rdist</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\phong.vcxproj">
-      <Project>{05AD10FE-D737-3F42-9C4A-F67F77B23260}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\phong.vcxproj">
+      <Project>{84BD10D4-6C6E-38FA-B224-1FA8E16CEE96}</Project>
       <Name>phong</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\photonmapper.vcxproj">
-      <Project>{9D246B0D-1756-3355-BF58-43B695590B16}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\photonmapper.vcxproj">
+      <Project>{EC9BFE0D-6F0B-311F-9874-B78E89CADB1E}</Project>
       <Name>photonmapper</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\plastic.vcxproj">
-      <Project>{3094CE1B-7C27-324B-BB23-1A706148A26B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\plastic.vcxproj">
+      <Project>{EC8253D9-D2ED-3B45-860E-50425D5F47ED}</Project>
       <Name>plastic</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\ply.vcxproj">
-      <Project>{CC901716-C070-373A-AE17-642F103105EC}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\ply.vcxproj">
+      <Project>{0A94546A-DE35-3D75-891B-EF24764B266A}</Project>
       <Name>ply</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\point.vcxproj">
-      <Project>{0016083F-10CD-3775-A82B-1F066855A366}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\point.vcxproj">
+      <Project>{BA6A24EF-3C29-37F2-A674-8AE2F4EA749F}</Project>
       <Name>point</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\ppm.vcxproj">
-      <Project>{E0852D3A-B26D-3A35-882C-3E03F6C6BBB9}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\ppm.vcxproj">
+      <Project>{DE00B06C-E4B2-3173-924B-DB757CBBCEB9}</Project>
       <Name>ppm</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\pssmlt.vcxproj">
-      <Project>{3FC87D7C-0D1F-332D-A506-CECC6F92EB80}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\pssmlt.vcxproj">
+      <Project>{9245AF8E-5BC5-39C0-8C89-7E2CAA85232D}</Project>
       <Name>pssmlt</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\ptracer.vcxproj">
-      <Project>{D870E335-B363-398A-A1CD-FF22D5BC005B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\ptracer.vcxproj">
+      <Project>{0AAC1586-970B-3470-8A8A-AA6503D9A016}</Project>
       <Name>ptracer</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\radiancemeter.vcxproj">
-      <Project>{716BDDC6-A795-3DA3-B6B0-1C9AF2F33CB6}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\radiancemeter.vcxproj">
+      <Project>{025B5B84-AB21-378C-B90D-587E9464AB74}</Project>
       <Name>radiancemeter</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\phase\rayleigh.vcxproj">
-      <Project>{508241E2-F54D-327B-87AC-54F6C2BBCDD9}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\phase\rayleigh.vcxproj">
+      <Project>{859A1CDF-48EA-32BC-99AB-6082436B8D06}</Project>
       <Name>rayleigh</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\rectangle.vcxproj">
-      <Project>{54A331BE-4026-3B78-B1D6-C75F87E8F255}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\rectangle.vcxproj">
+      <Project>{1415737A-73A1-32EE-A61A-50C751137988}</Project>
       <Name>rectangle</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\roughcoating.vcxproj">
-      <Project>{DF543D48-3957-352E-9CA4-0FAE3B32FF48}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\roughcoating.vcxproj">
+      <Project>{3DD533ED-50B6-3841-B386-26A8DE1976BE}</Project>
       <Name>roughcoating</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\roughconductor.vcxproj">
-      <Project>{42675B2E-441A-3BB9-8E07-7639A54A1B90}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\roughconductor.vcxproj">
+      <Project>{E2B0B4E1-934F-3F49-AD1B-5BA04DCC91F3}</Project>
       <Name>roughconductor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\roughdielectric.vcxproj">
-      <Project>{2C17345D-A8DD-3B7A-B7AA-8EC81CB10439}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\roughdielectric.vcxproj">
+      <Project>{E968CDDF-CF29-3FB7-8A4E-B424D0E3A0ED}</Project>
       <Name>roughdielectric</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\roughdiffuse.vcxproj">
-      <Project>{4A4930B4-1BCF-3069-942E-11F293C52E28}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\roughdiffuse.vcxproj">
+      <Project>{0DB8D461-318B-3EBD-B6F6-E1680828E9C7}</Project>
       <Name>roughdiffuse</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\roughplastic.vcxproj">
-      <Project>{BD9DD457-01A4-3DB4-B10F-2AA093BF9C07}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\roughplastic.vcxproj">
+      <Project>{C32CF0B3-A114-3193-9F25-93F92A55CEA6}</Project>
       <Name>roughplastic</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\scale.vcxproj">
-      <Project>{8B832B27-9B45-340D-A26B-C74E11B57096}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\scale.vcxproj">
+      <Project>{73D9EBDE-8BAB-3DB7-B4CD-036980C80537}</Project>
       <Name>scale</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\serialized.vcxproj">
-      <Project>{F32D573F-AB41-39A7-91A7-036C0EA6E79F}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\serialized.vcxproj">
+      <Project>{546D8CA2-A515-381F-9D16-0435C30D5138}</Project>
       <Name>serialized</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\shapegroup.vcxproj">
-      <Project>{2872BCE1-1BEE-3579-B557-180CDDC6BBDF}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\shapegroup.vcxproj">
+      <Project>{6C58AB8E-9496-3D84-A9FC-1FB55E0BC61F}</Project>
       <Name>shapegroup</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\sky.vcxproj">
-      <Project>{10B19460-A6DF-3EA6-80DE-3F06C8EDC1FB}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\sky.vcxproj">
+      <Project>{9AD9C308-6E26-3A02-B3CE-ABE6AEF2A83A}</Project>
       <Name>sky</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\samplers\sobol.vcxproj">
-      <Project>{4877F389-39B1-3C8D-8B7A-F9D4E21CEE65}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\samplers\sobol.vcxproj">
+      <Project>{51BC6D56-4E53-38BE-9BEE-5371AFB386AE}</Project>
       <Name>sobol</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\sphere.vcxproj">
-      <Project>{9A522358-EFB4-3746-9EF7-6375494F2764}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\shapes\sphere.vcxproj">
+      <Project>{4B21A0EF-2580-384D-8C15-BEE35066FA0D}</Project>
       <Name>sphere</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\spherical.vcxproj">
-      <Project>{BE778012-7BAD-3468-9398-5E8CC52CA13C}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\spherical.vcxproj">
+      <Project>{553DDD4C-6380-3FFE-8728-9C658006AEA3}</Project>
       <Name>spherical</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\spot.vcxproj">
-      <Project>{F379BAEA-BB7D-37BA-A9BF-9FD56A94F073}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\spot.vcxproj">
+      <Project>{5AE0122C-A562-3B6D-833A-1CA7ECB924B9}</Project>
       <Name>spot</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\sppm.vcxproj">
-      <Project>{374EAB62-7AEA-30FD-8495-AF5C676561E6}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\sppm.vcxproj">
+      <Project>{BCBBA2F7-CCE5-36D0-A063-D2A2A6287630}</Project>
       <Name>sppm</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\samplers\stratified.vcxproj">
-      <Project>{964E7767-4ED6-3D6A-9202-C911B2C016F2}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\samplers\stratified.vcxproj">
+      <Project>{EE8C2E26-0536-3D29-9FEE-703906D78063}</Project>
       <Name>stratified</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\sun.vcxproj">
-      <Project>{4A66E909-ACF0-3669-9F89-3DA0392D6C01}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\sun.vcxproj">
+      <Project>{BCB2EB05-2A42-3F83-8B05-47F413A961EE}</Project>
       <Name>sun</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\emitters\sunsky.vcxproj">
-      <Project>{72551BDA-2DFD-3F80-A648-98707958B92F}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\emitters\sunsky.vcxproj">
+      <Project>{88386F1D-48EC-33A4-B305-314061DD3A5E}</Project>
       <Name>sunsky</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\telecentric.vcxproj">
-      <Project>{33FE8BF7-6250-3CC9-BE3F-870CC4DA9343}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\telecentric.vcxproj">
+      <Project>{10C2AD48-6050-3FF2-9D43-26AFA2C9A19A}</Project>
       <Name>telecentric</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\rfilters\tent.vcxproj">
-      <Project>{1EBEC5E4-721F-3DC2-9DFC-2F6546C28A9B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\rfilters\tent.vcxproj">
+      <Project>{2F97FE30-15EE-31B0-A5C9-A6F4FAD3AA01}</Project>
       <Name>tent</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_chisquare.vcxproj">
-      <Project>{7B7139BD-25C7-375C-A4A4-0A45651BBDA3}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_chisquare.vcxproj">
+      <Project>{D9C7BD78-85F8-3B63-9E45-A826C6BB8361}</Project>
       <Name>test_chisquare</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_dgeom.vcxproj">
-      <Project>{9DFB793B-2BDD-31FA-8D63-C6A55F2D9BB8}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_dgeom.vcxproj">
+      <Project>{9761EB28-5FAB-3048-A2DE-1CEC24FDD3D1}</Project>
       <Name>test_dgeom</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_kd.vcxproj">
-      <Project>{98C834A8-76B1-3715-80AF-208D6893625F}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_kd.vcxproj">
+      <Project>{0D4E982F-2D54-3C51-8757-357BAAEFE978}</Project>
       <Name>test_kd</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_la.vcxproj">
-      <Project>{94A83D74-76EA-3C1D-B85B-319A28D916D5}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_la.vcxproj">
+      <Project>{AC05CFC4-B8C1-3798-A0B8-240C67C8ABB3}</Project>
       <Name>test_la</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_quad.vcxproj">
-      <Project>{0318EFDB-3A53-3556-8DCB-57B5E4E5FA00}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_quad.vcxproj">
+      <Project>{132D12D8-7CA3-36EA-9472-4D460ECC15AE}</Project>
       <Name>test_quad</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_random.vcxproj">
-      <Project>{2D1AEA7E-873B-3E9B-B9D3-6AE7814B5A2C}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_random.vcxproj">
+      <Project>{5A90AF76-4D34-3B67-BA9F-04AF6D5773B5}</Project>
       <Name>test_random</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_rtrans.vcxproj">
-      <Project>{0912E95C-7BC8-33BC-9FD4-DE97E22294AE}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_rtrans.vcxproj">
+      <Project>{735B9220-3840-35BC-AE2A-E832C11ED866}</Project>
       <Name>test_rtrans</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_samplers.vcxproj">
-      <Project>{F0B43A39-86C0-3EF6-8E96-79F5860EF30D}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_samplers.vcxproj">
+      <Project>{A14E727F-E4C4-39F0-B319-3F9799D7DDFE}</Project>
       <Name>test_samplers</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_sh.vcxproj">
-      <Project>{630182AB-DC5E-35AB-9B1D-D887F0182545}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_sh.vcxproj">
+      <Project>{905324B1-1F8F-36C0-85A4-7E547EC3282E}</Project>
       <Name>test_sh</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\tests\test_spectrum.vcxproj">
-      <Project>{450C7539-C7FA-30E1-AFDE-C936D2DE3841}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\tests\test_spectrum.vcxproj">
+      <Project>{58B60799-00AC-3C17-A179-DBAF233F0868}</Project>
       <Name>test_spectrum</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\thindielectric.vcxproj">
-      <Project>{5B6EB6F3-2EE2-34B7-B74E-3AA50B79A464}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\thindielectric.vcxproj">
+      <Project>{44D4E2A9-6073-3EAC-A13D-C3F373C86E04}</Project>
       <Name>thindielectric</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\sensors\thinlens.vcxproj">
-      <Project>{955D24DC-C25A-3BDF-B2FA-6AEE501EF5FA}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\sensors\thinlens.vcxproj">
+      <Project>{7BB2606D-82AA-36E3-9A46-1812E5C230C4}</Project>
       <Name>thinlens</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\films\tiledhdrfilm.vcxproj">
-      <Project>{845B194E-F638-35B1-B998-E893D86D4499}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\films\tiledhdrfilm.vcxproj">
+      <Project>{EC922F3C-3E1D-3822-A56B-8BC2D22B118A}</Project>
       <Name>tiledhdrfilm</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\utils\tonemap.vcxproj">
-      <Project>{61AD0DD0-0A42-3E53-A2FC-17EA1131BC8E}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\utils\tonemap.vcxproj">
+      <Project>{910FAFDF-F65D-384A-A95D-3B22A4D31F74}</Project>
       <Name>tonemap</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\twosided.vcxproj">
-      <Project>{0EBC8025-D8DD-3984-B576-F2C6007747B1}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\twosided.vcxproj">
+      <Project>{B49F7617-4237-31A3-B121-C60D395BFC58}</Project>
       <Name>twosided</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\vertexcolors.vcxproj">
-      <Project>{391F90A3-09FE-30AD-936B-FB4B7F8D1A6B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\vertexcolors.vcxproj">
+      <Project>{88362CB7-2768-3652-A060-630CFC9A5848}</Project>
       <Name>vertexcolors</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\volume\volcache.vcxproj">
-      <Project>{E75511ED-D795-34BD-8AE4-29E1CFDAAC38}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\volume\volcache.vcxproj">
+      <Project>{C72963F2-B9E8-3035-88D9-6CE325E737F6}</Project>
       <Name>volcache</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\volpath.vcxproj">
-      <Project>{42397F34-BEE5-30FB-82F5-1B97C109C438}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\volpath.vcxproj">
+      <Project>{C61D4950-32FE-3731-8562-DFE0C4D29AD6}</Project>
       <Name>volpath</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\volpath_simple.vcxproj">
-      <Project>{BB792790-73DE-3E0F-BBB2-DE8F2365BF64}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\volpath_simple.vcxproj">
+      <Project>{023434FE-2494-3CDB-8EFA-E44357204D0C}</Project>
       <Name>volpath_simple</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\integrators\vpl.vcxproj">
-      <Project>{C4219FB1-05E3-3474-A807-DEC67AA40546}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\integrators\vpl.vcxproj">
+      <Project>{89E22645-92E7-3F69-9842-9FE83852887D}</Project>
       <Name>vpl</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\bsdfs\ward.vcxproj">
-      <Project>{336CBE4D-3367-3D69-9479-39438DC573DE}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\bsdfs\ward.vcxproj">
+      <Project>{50FECF7D-7868-38A8-8188-DEE1653502EB}</Project>
       <Name>ward</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\textures\wireframe.vcxproj">
-      <Project>{245B1E51-33A7-39F2-A0E0-03BBDE5D1724}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\textures\wireframe.vcxproj">
+      <Project>{09EEA745-A9D3-3908-8C37-69A1DC7AC2CA}</Project>
       <Name>wireframe</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

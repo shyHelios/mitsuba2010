@@ -1,143 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\basicshader.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\basicshader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\device.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\device.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\font.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\font.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\glgeometry.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\glgeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\glprogram.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\glprogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\glrenderer.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\glrenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\glsync.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\glsync.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\gltexture.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\gltexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\gpugeometry.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\gpugeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\gpuprogram.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\gpuprogram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\gpusync.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\gpusync.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\gputexture.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\gputexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\renderer.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\shadow.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\shadow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\session.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\session.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\viewer.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\viewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\vpl.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\vpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\wgldevice.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\wgldevice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\wglsession.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\wglsession.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\wglrenderer.cpp">
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\wglrenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\basicshader.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\basicshader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\device.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\device.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\font.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\font.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\glgeometry.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\glgeometry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\glprogram.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\glprogram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\glrenderer.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\glrenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\glsync.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\glsync.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\gltexture.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\gltexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\gpugeometry.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\gpugeometry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\gpuprogram.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\gpuprogram.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\gpusync.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\gpusync.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\gputexture.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\gputexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\renderer.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\shadow.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\shadow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\session.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\session.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\viewer.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\viewer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\vpl.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\vpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\wgldevice.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\wgldevice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\wglrenderer.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\wglrenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\include\mitsuba\hw\wglsession.h">
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints\mitsuba\include\mitsuba\hw\wglsession.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\libhw\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\src\libhw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\libhw\mitsuba-hw_res.rc">
+    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\src\libhw\mitsuba-hw_res.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A4E0B49D-A142-3BA1-A87E-E5287C72AAF3}</UniqueIdentifier>
+      <UniqueIdentifier>{BE6BDDA7-EFA8-3A01-B529-CD93C4C1EFFB}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{921C06D3-044F-3A9D-A1B4-6165C0734088}</UniqueIdentifier>
+      <UniqueIdentifier>{8ACE4968-40DD-3305-B9EA-7C1070E6DBF2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

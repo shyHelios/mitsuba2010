@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0CED1793-D4F7-3093-9771-A2C3277C203B}</ProjectGuid>
+    <ProjectGuid>{1E291F3E-0470-34EE-8AE7-30B922456675}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -56,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -66,7 +66,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints\mitsuba\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,14 +85,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\f963f85668348eea9270a4f0bf1e8efd\.iordatabase.flag.rule">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\01ac8405bcd8e9a644fc4553fdee37b0\.iordatabase.flag.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Copying IOR database directory</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior
+D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints/mitsuba/data/ior C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/CMakeLists.txt
+D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/CMakeLists.txt
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/.iordatabase.flag
+D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/.iordatabase.flag
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,15 +101,15 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Copying IOR database directory</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior
+D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints/mitsuba/data/ior C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/CMakeLists.txt
+D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/CMakeLists.txt
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/.iordatabase.flag
+D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/.iordatabase.flag
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -118,15 +118,15 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Copying IOR database directory</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior
+D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints/mitsuba/data/ior C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/CMakeLists.txt
+D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/CMakeLists.txt
 if %errorlevel% neq 0 goto :cmEnd
-D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/.iordatabase.flag
+D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/binaries/$(Configuration)/data/ior/.iordatabase.flag
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -135,12 +135,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\CMakeFiles\38f9d91f6c103b1ffce99df2fba56ee1\ior_database.rule">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\CMakeFiles\90cfd19bff146299a54f3f35f27d34bb\ior_database.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 :cmEnd
@@ -149,8 +149,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -161,8 +161,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -173,18 +173,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\binaries\$(Configuration)\data\ior\.iordatabase.flag;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\data\ior\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints\mitsuba\data\ior\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/ior/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,11 +193,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/ior/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,11 +206,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints/mitsuba/data/ior/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints/mitsuba -BC:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,17 +219,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database">
+    <None Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\data\ior\CMakeFiles\ior_database">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
-      <Project>{9D981FC8-BDDA-345D-9381-4CE1AA109D2B}</Project>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{C28FFD80-C0D9-3210-B58E-2372C6DD4F4D}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
