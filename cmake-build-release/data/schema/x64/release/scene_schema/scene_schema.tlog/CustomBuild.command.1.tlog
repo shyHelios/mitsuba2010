@@ -1,0 +1,34 @@
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\DATA\SCHEMA\SCENE.XSD
+setlocal
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/scene.xsd C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/schema/scene.xsd
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.3.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/schema/upgrade_0.3.0.xsl
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.4.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/schema/upgrade_0.4.0.xsl
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/schema/upgrade_0.5.0.xsl C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/schema/upgrade_0.5.0.xsl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\2ACFAF813DE37CE98DBCC8893600B6D4\SCENE_SCHEMA.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\DATA\SCHEMA\CMAKELISTS.TXT
+setlocal
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/schema/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

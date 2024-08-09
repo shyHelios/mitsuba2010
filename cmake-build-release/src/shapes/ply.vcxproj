@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC901716-C070-373A-AE17-642F103105EC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ply</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ply.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ply</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\MinSizeRel\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ply.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ply</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\RelWithDebInfo\plugins\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ply.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ply</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MTS_DEBUG;SINGLE_PRECISION;SPECTRUM_SAMPLES=3;MTS_SSE;MTS_HAS_COHERENT_RT;WIN64;OPENEXR_DLL;MTS_HAS_LIBPNG=1;MTS_HAS_LIBJPEG=1;MTS_HAS_OPENEXR=1;CMAKE_INTDIR="Release";ply_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MTS_DEBUG;SINGLE_PRECISION;SPECTRUM_SAMPLES=3;MTS_SSE;MTS_HAS_COHERENT_RT;WIN64;OPENEXR_DLL;MTS_HAS_LIBPNG=1;MTS_HAS_LIBJPEG=1;MTS_HAS_OPENEXR=1;CMAKE_INTDIR=\"Release\";ply_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\librender\Release\mitsuba-render.lib;..\libcore\Release\mitsuba-core.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\zlib.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\libpng16.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\zlib.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\libpng16.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\jpeg.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Half.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Iex.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Imath.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\IlmThread.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\IlmImf.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_filesystem-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_system-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_thread-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_chrono-vc141-mt-1_64.lib;ws2_32.lib;psapi.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\xerces-c_3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/shapes/Release/ply.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/plugins/ply.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MTS_DEBUG;SINGLE_PRECISION;SPECTRUM_SAMPLES=3;MTS_SSE;MTS_HAS_COHERENT_RT;WIN64;OPENEXR_DLL;MTS_HAS_LIBPNG=1;MTS_HAS_LIBJPEG=1;MTS_HAS_OPENEXR=1;CMAKE_INTDIR="MinSizeRel";ply_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MTS_DEBUG;SINGLE_PRECISION;SPECTRUM_SAMPLES=3;MTS_SSE;MTS_HAS_COHERENT_RT;WIN64;OPENEXR_DLL;MTS_HAS_LIBPNG=1;MTS_HAS_LIBJPEG=1;MTS_HAS_OPENEXR=1;CMAKE_INTDIR=\"MinSizeRel\";ply_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\librender\MinSizeRel\mitsuba-render.lib;..\libcore\MinSizeRel\mitsuba-core.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\zlib.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\libpng16.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\zlib.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\libpng16.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\jpeg.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Half.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Iex.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Imath.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\IlmThread.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\IlmImf.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_filesystem-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_system-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_thread-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_chrono-vc141-mt-1_64.lib;ws2_32.lib;psapi.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\xerces-c_3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/shapes/MinSizeRel/ply.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/MinSizeRel/plugins/ply.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MTS_DEBUG;SINGLE_PRECISION;SPECTRUM_SAMPLES=3;MTS_SSE;MTS_HAS_COHERENT_RT;WIN64;OPENEXR_DLL;MTS_HAS_LIBPNG=1;MTS_HAS_LIBJPEG=1;MTS_HAS_OPENEXR=1;CMAKE_INTDIR="RelWithDebInfo";ply_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;MTS_DEBUG;SINGLE_PRECISION;SPECTRUM_SAMPLES=3;MTS_SSE;MTS_HAS_COHERENT_RT;WIN64;OPENEXR_DLL;MTS_HAS_LIBPNG=1;MTS_HAS_LIBJPEG=1;MTS_HAS_OPENEXR=1;CMAKE_INTDIR=\"RelWithDebInfo\";ply_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\include\OpenEXR;C:\Users\shy\Downloads\mbglints-master\mitsuba\include;C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\librender\RelWithDebInfo\mitsuba-render.lib;..\libcore\RelWithDebInfo\mitsuba-core.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\zlib.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\libpng16.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\zlib.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\libpng16.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\jpeg.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Half.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Iex.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\Imath.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\IlmThread.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\IlmImf.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_filesystem-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_system-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_thread-vc141-mt-1_64.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\boost_chrono-vc141-mt-1_64.lib;ws2_32.lib;psapi.lib;C:\Users\shy\Downloads\mbglints-master\mitsuba\dependencies\lib\xerces-c_3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/shapes/RelWithDebInfo/ply.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/RelWithDebInfo/plugins/ply.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/src/shapes/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/shapes/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\windows\mitsuba_res.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/src/shapes/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/shapes/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\windows\mitsuba_res.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shy/Downloads/mbglints-master/mitsuba/src/shapes/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/src/shapes/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\data\windows\mitsuba_res.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply.cpp" />
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\ply_parser.cpp" />
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\byte_order.hpp" />
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\config.hpp" />
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\io_operators.hpp" />
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\ply.hpp" />
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\ply_parser.hpp" />
+    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\ply_res.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\ZERO_CHECK.vcxproj">
+      <Project>{9D981FC8-BDDA-345D-9381-4CE1AA109D2B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\libcore\mitsuba-core.vcxproj">
+      <Project>{F294D2E2-1CB6-3F13-A3F5-46DE095CB3ED}</Project>
+      <Name>mitsuba-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\librender\mitsuba-render.vcxproj">
+      <Project>{32746751-6869-3F9F-BF5E-22D78F3A72AB}</Project>
+      <Name>mitsuba-render</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

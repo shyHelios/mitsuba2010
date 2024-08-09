@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<scene version="0.5.0">
+	<integrator type="path">
+		<integer name="maxDepth" value="2"/>
+	</integrator>
+
+	<sensor type="perspective">
+		<float name="fov" value="45"/>
+		<string name="fovAxis" value="x"/>
+		<float name="nearClip" value="0.1"/>
+		<transform name="toWorld">
+
+			<lookat target="0, 0, 9" origin="0, 0, 10" up="0, -1, 0"/>
+		</transform>
+
+		<sampler type="ldsampler">
+			<integer name="sampleCount" value="512"/>
+		</sampler>
+
+		<film type="mfilm">
+			<integer name="width" value="1920"/>
+			<integer name="height" value="1080"/>
+			<rfilter type="tent"/>
+		</film>
+	</sensor>
+
+	<emitter type="point">
+		<transform name="toWorld">
+			<translate x="0" y="0" z="10"/>
+		</transform>
+		
+		<spectrum name="intensity" value="314"/>
+	</emitter>  
+
+	<bsdf type="conductor" id="metal">
+		<string name="material" value="al"/>
+		<float name="alpha" value="0.1"/>
+	</bsdf>
+
+	<shape type="ply">
+		<string name="filename" value="mesh/planar.ply"/>
+		<ref id="metal"/>
+	</shape>
+</scene>

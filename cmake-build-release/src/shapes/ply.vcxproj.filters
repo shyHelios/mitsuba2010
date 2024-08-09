@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\ply_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\byte_order.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\io_operators.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\ply.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\ply\ply_parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\src\shapes\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\src\shapes\ply_res.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A4E0B49D-A142-3BA1-A87E-E5287C72AAF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{921C06D3-044F-3A9D-A1B4-6165C0734088}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

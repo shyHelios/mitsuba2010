@@ -1,0 +1,32 @@
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\90A42040540C50AF3D3E09E2B5D56759\BECKMANN.DAT.RULE
+setlocal
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/beckmann.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/microfacet/beckmann.dat
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/ggx.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/microfacet/ggx.dat
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E copy_if_different C:/Users/shy/Downloads/mbglints-master/mitsuba/data/microfacet/phong.dat C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/microfacet/phong.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\6533D39CB86E15AC0FD77553F48EDDA4\MICROFACET_DATA.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\DATA\MICROFACET\CMAKELISTS.TXT
+setlocal
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/microfacet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

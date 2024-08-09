@@ -1,0 +1,32 @@
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\F963F85668348EEA9270A4F0BF1E8EFD\.IORDATABASE.FLAG.RULE
+setlocal
+D:\Programs\cmake\bin\cmake.exe -E copy_directory C:/Users/shy/Downloads/mbglints-master/mitsuba/data/ior C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/ior
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E remove -f C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/ior/CMakeLists.txt
+if %errorlevel% neq 0 goto :cmEnd
+D:\Programs\cmake\bin\cmake.exe -E touch C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/binaries/release/data/ior/.iordatabase.flag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\CMAKE-BUILD-RELEASE\CMAKEFILES\38F9D91F6C103B1FFCE99DF2FBA56EE1\IOR_DATABASE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\SHY\DOWNLOADS\MBGLINTS-MASTER\MITSUBA\DATA\IOR\CMAKELISTS.TXT
+setlocal
+D:\Programs\cmake\bin\cmake.exe -SC:/Users/shy/Downloads/mbglints-master/mitsuba -BC:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release --check-stamp-file C:/Users/shy/Downloads/mbglints-master/mitsuba/cmake-build-release/data/ior/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

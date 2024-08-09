@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\x64\release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\ior\x64\release\ior_database</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\microfacet\x64\release\microfacet_data</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\libmitsuba-core.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\data\schema\x64\release\scene_schema</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\libmitsuba-render.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\libmitsuba-hw.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\shy\Downloads\mbglints-master\mitsuba\cmake-build-release\binaries\release\plugins\ward.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
